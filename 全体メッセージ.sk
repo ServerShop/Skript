@@ -1,0 +1,4 @@
+command /broadcast <text>:
+    permssion: op
+    trigger:
+        broadcast "%arg-1%"
