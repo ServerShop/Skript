@@ -1,0 +1,4 @@
+command /votethankyou <player>:
+    permission: op
+    trigger:
+        broadcast "&6[&e投票&6] &a%arg-1%&rさんが投票してくれました！ありがとうございます！"
