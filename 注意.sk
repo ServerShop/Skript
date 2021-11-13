@@ -1,0 +1,15 @@
+command /touroku:
+	trigger:
+		send "&c登録する際の条件" to player
+		send "・もしPlayerRealmsのサーバーを売る際は、パネルの権限とOPを購入者に付与し、プレミアムを買ってから登録すること。" to player
+		send "・登録する際には審査が入ります。" to player
+		send "・購入を検討している人が内見を必要としている場合は応じましょう。" to player
+		send "・転売はできません。"
+		send "" to player
+		send "&c登録する際に記載してほしいこと" to player
+		send "・あなたのMCID(マインクラフトのユーザーネーム)" to player
+		send "・ワールドかサーバーかPRのサーバーかなどの種類" to player
+		send "・(ワールドの際)ワールドのファイル(URlで提出願います)" to player
+		send "・(PRではないサーバーの場合)IP" to player
+		send "・(PRのサーバーの場合)サーバー名(無理な場合もあります。)" to player
+		send "・注意点や一言" to player
