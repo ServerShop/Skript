@@ -1,0 +1,9 @@
+command /list:
+	trigger:
+		send "&c商品リスト" to player
+		send "&6【&e1&6】&r未登録" to player
+		send "&aタイプ&7:&r 未登録" to player
+		send "&a登録者&7: &r未登録" to player
+		send "&aワールドタイプ&7: &r未登録" to player
+		send "&a一言&7:" to player
+		send "未登録" to player
